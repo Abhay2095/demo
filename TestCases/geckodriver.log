@@ -1,0 +1,20 @@
+1714027749063	geckodriver	INFO	Listening on 127.0.0.1:52249
+1714027752280	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52250" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\rust_mozprofilevsf8Mz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1714027759263	Marionette	INFO	Marionette enabled
+1714027759943	Marionette	INFO	Listening on port 52261
+Read port: 52261
+WebDriver BiDi listening on ws://127.0.0.1:52250
+1714027761397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52250/devtools/browser/7a31f403-892f-4b96-b123-f03a70ba8acc
+1714027789427	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2NJTDMQ3JH, line 172: Script terminated by timeout at:
+z@https://www.googletagmanager.com/gtag/js?id=G-2NJTDMQ3JH:172:1330
+aA@https://www.googletagmanager.com/gtag/js?id=G-2NJTDMQ3JH:534:134
+bA/<@https://www.googletagmanager.com/gtag/js?id=G-2NJTDMQ3JH:534:111
+c@https://admin-demo.nopcommerce.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js:1:9405
+
+1714027828429	Marionette	INFO	Stopped listening on port 52261
+Dynamically enable window occlusion 1
