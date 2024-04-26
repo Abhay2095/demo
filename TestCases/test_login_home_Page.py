@@ -23,12 +23,13 @@ class Test_HomePage_001:
         self.lp.clicklogin()
 
         act_title = self.driver.title
+        exp_title = "Dashboard / nopCommerce administration"
 
-        if act_title == "Dashboard / nopCommerce administration":
-            self.driver.save_screenshot("E:\\nopcommerce\\Screenshots\\home.png")
+        if act_title == exp_title:
+            self.driver.save_screenshot("E:\\nopcommerce12\\Screenshots\\home.png")
             assert True
         else:
-            self.driver.save_screenshot("E:\\nopcommerce\\Screenshots\\home.png")
+            self.driver.save_screenshot("E:\\nopcommerce12\\Screenshots\\home.png")
             assert False
 
         self.logger.info("home page test completed")

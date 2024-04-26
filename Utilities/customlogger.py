@@ -4,7 +4,7 @@ import logging
 class LogGen:
     @staticmethod
     def loggen():
-        logging.basicConfig(filename="E:\\nopcommerce\\Logs\\auto.log",
+        logging.basicConfig(filename="E:\\nopcommerce12\\Logs\\auto.log",
                             format="%(asctime)s: %(levelname)s: %(message)s", datefmt="%d/%m/%Y %I:%M:%S %p",
                             force=True)
 
