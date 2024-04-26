@@ -56,7 +56,7 @@ class SearchCustomer:
             if name == Name:
                 flag = True
                 break
-            return flag
+        return flag
 
 
 
