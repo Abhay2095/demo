@@ -39,7 +39,7 @@ class SearchCustomer:
 
     def searchcustomerbymail(self,email):
         flag = False
-        for r in range(1,self.getrownum()+1):
+        for r in range(1, self.getrownum()+1):
             table = self.driver.find_element(By.XPATH, self.table_xpath)
             emailid = table.find_element(By.XPATH, "//table[@id='customers-grid']/tbody/tr["+str(r)+"]/td[2]").text
             if emailid == email:
